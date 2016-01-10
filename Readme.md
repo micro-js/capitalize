@@ -17,15 +17,16 @@ Capitalize a string
 ```js
 var capitalize = require('@f/capitalize')
 
+capitalize('hello world!') === 'Hello world!'
 ```
 
 ## API
 
-### capitalize(arg)
+### capitalize(str)
 
-- `arg` -
+- `str` - The string you want to capitalize
 
-**Returns:**
+**Returns:** `str`, but with the first letter capitalized.
 
 ## License
 
